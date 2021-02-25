@@ -1,0 +1,5 @@
+body {
+    background-color: green;
+    color: #FFFFFF;
+    -webkit-app-region: "drag";
+}
