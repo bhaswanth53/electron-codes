@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crud Demo</title>
+
+        <link rel="stylesheet" type="text/css" href="photon.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="marginWrapper">
+            <h1>CRUD File</h1>
+            <form>
+                <div class="form-group">
+                    <label>File name</label>
+                    <input id="fileName" type="text" class="form-control">
+                </div>      
+                <div class="form-group">
+                    <label>Contents</label>
+                    <textarea id="fileContents" class="form-control" rows="5"></textarea>
+                </div>
+            </form>
+            <button id="btnCreate" class="btn btn-default">Create</button>
+            <button id="btnRead" class="btn btn-default">Read</button>
+            <button id="btnDelete" class="btn btn-default">Delete</button>
+        </div>
+
+        <script>
+            require("./script.js")
+        </script>
+    </body>
+</html>
