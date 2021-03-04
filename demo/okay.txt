@@ -1,0 +1,1 @@
+This is the okay file and it is a file that checks whether electron opening it or not.
